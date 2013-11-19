@@ -105,8 +105,14 @@ projects[] = wysiwyg_spellcheck
 projects[] = jquery_update
 projects[] = block_class
 projects[] = module_filter
-
-
+projects[] = migrate
+projects[] = migrate_d2d
+projects[] = a11y_titles
+projects[] = a11y_checklist
+projects[] = eim
+projects[] = semantic_fields
+projects[] = semanticviews
+projects[] = checklistapi
 
 ; This will, by default, retrieve the latest recommended version of the project
 ; using its update XML feed on Drupal.org. If any of those defaults are not
