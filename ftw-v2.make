@@ -60,6 +60,10 @@ projects[] = drupal
 ; To include the most recent views module:
 
 projects[] = views
+projects[] = ctools
+projects[] = entity
+projects[] = context
+projects[] = panels
 projects[] = email
 projects[] = link
 projects[] = admin_menu
@@ -100,6 +104,7 @@ projects[] = wysiwyg
 projects[] = wysiwyg_spellcheck
 projects[] = jquery_update
 projects[] = block_class
+projects[] = module_filter
 
 
 
