@@ -141,8 +141,13 @@ projects[] = autoassignrole
 projects[] = auto_nodetitle
 ;projects[] = account_profile
 ;projects[] = accessible_content
-projects[] = adaptivetheme
-
+;projects[] = ctools
+projects[] = zen
+projects[] = job_scheduler
+projects[] = feeds
+projects[] = features
+projects[] = strongarm
+projects[] = reroute_email
  
 ; This will, by default, retrieve the latest recommended version of the project
 ; using its update XML feed on Drupal.org. If any of those defaults are not
@@ -158,11 +163,11 @@ libraries[tinymce][download][url] = http://download.moxiecode.com/tinymce/tinymc
 libraries[theworkshop_videoplayer][download][type] = get
 libraries[theworkshop_videoplayer][download][url] = http://www.theworkshop.co.uk/wp-content/themes/wstheme/downloads/videoplayerdownload.zip
 
-libraries[bootstrap][download][type] = "get"
-libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/archive/v3.0.2.zip"
-libraries[bootstrap][directory_name] = "bootstrap"
-libraries[bootstrap][destination] = "themes/bootstrap"
-libraries[bootstrap][overwrite] = TRUE
+;libraries[bootstrap][download][type] = "get"
+;libraries[bootstrap][download][url] = "https://github.com/twbs/bootstrap/archive/v3.0.2.zip"
+;libraries[bootstrap][directory_name] = "bootstrap"
+;libraries[bootstrap][destination] = "themes/bootstrap"
+;libraries[bootstrap][overwrite] = TRUE
 
 ; Or an alternative, extended syntax:
 
