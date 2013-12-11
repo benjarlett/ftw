@@ -113,7 +113,12 @@ projects[] = eim
 projects[] = semantic_fields
 projects[] = semanticviews
 projects[] = checklistapi
-projects[] = adaptivethemes
+projects[] = adaptivetheme
+projects[] = feeds
+projects[] = features
+projects[] = job_scheduler
+projects[] = mailsystem
+projects[] = references
 
 ; This will, by default, retrieve the latest recommended version of the project
 ; using its update XML feed on Drupal.org. If any of those defaults are not

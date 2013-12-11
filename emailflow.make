@@ -13,6 +13,14 @@ projects[] = mimemail
 projects[] = pmail
 projects[] = phpmailer
 projects[] = mailsystem
+projects[] = strongarm
+projects[] = features
+projects[] = references
+projects[] = logintoboggan
+projects[] = token
+projects[] = rules
+projects[] = entity
+projects[] = comment_notify
 
 ; Fixes Driven reporting all files removed and added
 ; Libraries
