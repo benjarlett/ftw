@@ -133,7 +133,7 @@ projects[bootstrap] = 3.0
 projects[views_bootstrap] = 2.0
 
 libraries[tinymce][download][type] = get
-libraries[tinymce][download][url] = http://download.moxiecode.com/tinymce/tinymce_4.0.10.zip
+libraries[tinymce][download][url] = http://download.moxiecode.com/tinymce/tinymce_3.5.10.zip
 
 libraries[theworkshop_videoplayer][download][type] = get
 libraries[theworkshop_videoplayer][download][url] = http://www.theworkshop.co.uk/wp-content/themes/wstheme/downloads/videoplayerdownload.zip
