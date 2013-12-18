@@ -119,6 +119,7 @@ projects[] = features
 projects[] = job_scheduler
 projects[] = mailsystem
 projects[] = references
+projects[] = draggableviews
 
 ; This will, by default, retrieve the latest recommended version of the project
 ; using its update XML feed on Drupal.org. If any of those defaults are not
