@@ -315,7 +315,7 @@ ul {
 
 
 dd {
-  margin: 0 0 0 40px;
+  margin: 0 0 1em 1em;
 }
 
 
@@ -684,7 +684,7 @@ header[role=banner],
 }
 
 
-/* Shift content offscreen, can be usefull when you reall need to do this */
+/* Shift content offscreen, can be usefull when you really need to do this */
 .offscreen {
   position: absolute;
   top: -99999em;
@@ -698,4 +698,40 @@ header[role=banner],
 /* Hide content from all users */
 .element-hidden {
   display: none;
+}
+
+
+
+/* =============================================================================
+    Ben's Customisations
+   ========================================================================== */
+
+
+/* header */
+#header{
+	#branding{
+	width:164px;
+	float:left;}
+	
+	#logo{
+	text-align:center;
+	}
+	
+	.region-header{
+	width:200px;
+	float:right;
+	}	
+}
+#site-slogan{color: #E4332C;
+font-family: 'Arial Black', Gadget, sans-serif;
+font-style: italic;
+text-align: center;
+font-size: 1.46em;
+line-height: 1.5em;
+}
+
+/* footer menu */
+#block-superfish-2{
+	.block-title{ position: absolute; top: -99999em; width: 1px; height: 1px; overflow: hidden; outline: 0;
+	}
 }

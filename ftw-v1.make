@@ -120,6 +120,9 @@ projects[] = job_scheduler
 projects[] = mailsystem
 projects[] = references
 projects[] = draggableviews
+projects[] = fontello
+projects[] = icon
+projects[superfish][version] = 7.x-1.x-dev
 
 ; This will, by default, retrieve the latest recommended version of the project
 ; using its update XML feed on Drupal.org. If any of those defaults are not
@@ -135,6 +138,12 @@ projects[views_bootstrap] = 2.0
 
 libraries[tinymce][download][type] = get
 libraries[tinymce][download][url] = http://download.moxiecode.com/tinymce/tinymce_3.5.10.zip
+
+libraries[superfish][download][type] = get
+libraries[superfish][download][url] = https://github.com/mehrpadin/Superfish-for-Drupal/archive/1.x.zip
+
+libraries[easing][download][type] = get
+libraries[easing][download][url] = https://github.com/gdsmith/jquery.easing/blob/master/jquery.easing.1.3.min.js
 
 libraries[theworkshop_videoplayer][download][type] = get
 libraries[theworkshop_videoplayer][download][url] = http://www.theworkshop.co.uk/wp-content/themes/wstheme/downloads/videoplayerdownload.zip
