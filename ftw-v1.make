@@ -107,6 +107,7 @@ projects[] = block_class
 projects[] = module_filter
 projects[] = migrate
 projects[] = migrate_d2d
+projects[] = migrate_extras
 projects[] = a11y_titles
 projects[] = a11y_checklist
 projects[] = eim

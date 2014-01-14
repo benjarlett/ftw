@@ -150,6 +150,10 @@ var {
  * Page wrapper, includes the .container class which sets the overall page or section width
  * Main wrapper in page.tpl.php, the .container class sets the width of the page, do not add width to it!
  */
+#main.container {
+position:relative;
+}
+
 #page  {
   .container {}
 }
@@ -512,7 +516,8 @@ ul.links {
  * ========================================================================== */
 
 a {
-  text-decoration: none;
+ text-decoration: underline;
+	color:#911F1C;
 
   &:link,
   &:visited {}
@@ -522,8 +527,10 @@ a {
 
   &:hover,
   &:focus {
-    text-decoration: underline;
-  }
+  	text-decoration: none;
+	background-color: #4e40c8;
+	color:white;
+	}
 }
 
 
@@ -868,41 +875,45 @@ ul.pager li {
  * ========================================================================== */
 
 #skip-link {
-  left: 50%;
-  margin-left: -6.5em;
+  left: 180px;
+  margin-left: 0;
   margin-top: 0;
   padding: 0 0.5em;
   position: absolute;
-  width: 12em;
   z-index: 50;
+  font-size: 0.8em;
+	ul{
+	padding:0;
+	margin:0;
+		li{
+		display:inline-block;
+		list-type:none;
+		padding-right:1em;
+		
+			a {
+			    display: inline;
+			    line-height: 2;
+			    padding: 2px;
+			    text-align: center;
 
-  a {
-    background: #444;
-    background: rgba(0, 0, 0, 0.6);
-    color: $page;
-    display: block;
-    line-height: 2;
-    padding: 0;
-    text-align: center;
-    text-decoration: none;
+			    &:link,
+			    &:visited {
+			      display: inline-block;
+			      line-height: 2;
+			      padding: 0;
+			      text-align: center;
+			    }
+			    &:hover,
+			    &:focus,
+			    &:active {
+			      outline: 0;
+			    }
+			  }
+	
+		}
+	}
 
-    &:link,
-    &:visited {
-      background: #444;
-      background: rgba(0, 0, 0, 0.6);
-      color: $page;
-      display: block;
-      line-height: 2;
-      padding: 0;
-      text-align: center;
-      text-decoration: none;
-    }
-    &:hover,
-    &:focus,
-    &:active {
-      outline: 0;
-    }
-  }
+  
 }
 
 

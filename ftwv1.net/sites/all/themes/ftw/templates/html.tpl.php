@@ -65,7 +65,8 @@
 <?php print $polyfills; ?>
 </head>
 <body class="<?php print $classes; ?>"<?php print $attributes; ?>>
-  <div id="skip-link">
+  <div id="main" class="container">
+	<div id="skip-link">
 		<ul>
 		        <li><a href="#content" accesskey="0">Jump to content</a></li>
 		    	<li><a href="#block-superfish-1" accesskey="9">Jump to navigation</a></li>
@@ -73,9 +74,10 @@
 		    	<li><a href="/accessibility#access-keys">Access keys</a></li>
 		    	<li><a href="/sitemap" accesskey="3">Sitemap</a></li>
 		    	</ul>
+  	</div>
+    <?php print $page_top; ?>
+    <?php print $page; ?>
+    <?php print $page_bottom; ?>
   </div>
-  <?php print $page_top; ?>
-  <?php print $page; ?>
-  <?php print $page_bottom; ?>
 </body>
 </html>

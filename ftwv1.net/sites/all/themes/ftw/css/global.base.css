@@ -723,3 +723,14 @@ header[role=banner],
   overflow: hidden;
   outline: 0;
 }
+
+/* login menu */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003740}}
+#block-user-login h2 {
+  position: absolute;
+  top: -99999em;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  outline: 0;
+}
