@@ -123,6 +123,7 @@ projects[] = references
 projects[] = draggableviews
 projects[] = fontello
 projects[] = icon
+projects[] = module_filter
 projects[superfish][version] = 7.x-1.x-dev
 
 ; This will, by default, retrieve the latest recommended version of the project
