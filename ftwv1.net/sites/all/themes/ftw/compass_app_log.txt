@@ -48,3 +48,22 @@
 2014-01-13 15:18:59 overwrite css/global.styles.css 
 2014-01-13 15:19:43 overwrite css/global.styles.css 
 2014-01-13 15:23:39 overwrite css/global.base.css 
+2014-01-20 09:20:55 overwrite css/global.base.css 
+2014-01-20 09:22:12 overwrite css/global.base.css 
+2014-01-20 09:22:59 overwrite css/global.base.css 
+2014-01-20 09:25:23 overwrite css/global.base.css 
+2014-01-20 09:27:00 overwrite css/global.base.css 
+2014-01-20 09:27:26 overwrite css/global.base.css 
+2014-01-20 09:30:09 overwrite css/global.base.css 
+2014-01-20 09:31:39 overwrite css/global.base.css 
+2014-01-20 09:59:45 overwrite css/global.base.css 
+2014-01-20 10:09:13     error sass/global.base.scss (Line 802: Invalid CSS after "}": expected "}", was "")
+2014-01-20 10:09:13 overwrite css/global.base.css 
+2014-01-20 10:26:40     error sass/global.base.scss (Line 802: Invalid CSS after "}": expected "}", was "")
+2014-01-20 10:26:40 identical css/global.base.css 
+2014-01-20 10:27:10 overwrite css/global.base.css 
+2014-01-20 10:27:38 overwrite css/global.base.css 
+2014-01-20 10:28:09 overwrite css/global.base.css 
+2014-01-20 10:28:22 identical css/global.base.css 
+2014-01-20 10:28:48 overwrite css/global.base.css 
+2014-01-20 10:29:13 overwrite css/global.base.css 

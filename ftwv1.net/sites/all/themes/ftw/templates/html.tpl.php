@@ -65,6 +65,7 @@
 <?php print $polyfills; ?>
 </head>
 <body class="<?php print $classes; ?>"<?php print $attributes; ?>>
+	<div id="toplines"></div>
   <div id="main" class="container">
 	<div id="skip-link">
 		<ul>

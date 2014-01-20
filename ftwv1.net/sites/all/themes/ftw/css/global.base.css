@@ -687,23 +687,44 @@ header[role=banner],
 /* =============================================================================
     Ben's Customisations
    ========================================================================== */
+/*toplines - to create the 100% width horisontal lines in header*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003710}}
+#toplines {
+  position: absolute;
+  width: 100%;
+  border-bottom: solid 1px #911F1C;
+  height: 200px;
+}
+
 /* header */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003712}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003718}}
+#header {
+  background: url("../images/ftw-background.png") no-repeat top left;
+  background-size: 1140px 200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003722}}
 #header #branding {
   width: 164px;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003716}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003726}}
 #header #logo {
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003720}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003730}}
 #header .region-header {
   width: 200px;
   float: right;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003725}}
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003742}}
+  #header {
+    background: url("../images/ftw-background2x.png") no-repeat top left;
+    background-size: 1140px 200px;
+  }
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003748}}
 #site-slogan {
   color: #E4332C;
   font-family: 'Arial Black', Gadget, sans-serif;
@@ -713,8 +734,47 @@ header[role=banner],
   line-height: 1.5em;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003755}}
+#block-user-login {
+  margin-bottom: 0;
+}
+
+/*menu bar*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003759}}
+#menu-bar {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003761}}
+#menu-bar #block-superfish-1 {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003764}}
+#menu-bar #block-superfish-1 .sf-menu.sf-style-white li {
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003766}}
+#menu-bar #block-superfish-1 .sf-menu.sf-style-white li a {
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003770}}
+#menu-bar #block-superfish-1 .sf-menu.sf-style-white li li {
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003772}}
+#menu-bar #block-superfish-1 .sf-menu.sf-style-white li li a {
+  border: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003775}}
+#menu-bar #block-superfish-1 .sf-menu.sf-style-white li li li {
+  background: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003777}}
+#menu-bar #block-superfish-1 .sf-menu.sf-style-white li li li a {
+  border: none;
+}
+
 /* footer menu */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003735}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003790}}
 #block-superfish-2 .block-title {
   position: absolute;
   top: -99999em;
@@ -725,7 +785,7 @@ header[role=banner],
 }
 
 /* login menu */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003740}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ben\/Sites\/ftwV1\/ftwv1\.net\/sites\/all\/themes\/ftw\/sass\/global\.base\.scss}line{font-family:\00003795}}
 #block-user-login h2 {
   position: absolute;
   top: -99999em;

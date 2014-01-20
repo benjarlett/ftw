@@ -706,9 +706,19 @@ header[role=banner],
     Ben's Customisations
    ========================================================================== */
 
-
+/*toplines - to create the 100% width horisontal lines in header*/
+#toplines{
+  position: absolute;
+  width: 100%;
+  border-bottom: solid 1px #911F1C;
+  height:200px;
+}
 /* header */
+
 #header{
+
+    background:url('../images/ftw-background.png') no-repeat top left;
+        background-size: 1140px 200px;
 	#branding{
 	width:164px;
 	float:left;}
@@ -722,6 +732,19 @@ header[role=banner],
 	float:right;
 	}	
 }
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  #header{
+    background:url('../images/ftw-background2x.png') no-repeat top left;
+        background-size: 1140px 200px;
+
+  }
+}
 #site-slogan{color: #E4332C;
 font-family: 'Arial Black', Gadget, sans-serif;
 font-style: italic;
@@ -729,7 +752,39 @@ text-align: center;
 font-size: 1.46em;
 line-height: 1.5em;
 }
+#block-user-login{
+  margin-bottom: 0;
+}
+/*menu bar*/
+#menu-bar{
+  margin: 0;
+  #block-superfish-1{
+    margin: 0;
+    .sf-menu.sf-style-white {
+      li{
+        background: none;
+        a{
+          border: none;
+        }
 
+        li{
+          background: none;
+          a{
+          border: none;
+          }
+          li{
+            background: none;
+          a{
+          border: none;
+            }
+
+          }
+        }
+      }
+    }
+    
+  }
+}
 /* footer menu */
 #block-superfish-2{
 	.block-title{ position: absolute; top: -99999em; width: 1px; height: 1px; overflow: hidden; outline: 0;
