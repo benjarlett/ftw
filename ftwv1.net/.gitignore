@@ -38,3 +38,6 @@ xmlrpc.php
 
 # Ignore Robs module
 /sites/all/modules/!robmodule/
+
+# Ignore Ben’s theme
+/sites/all/themes/ftw/
